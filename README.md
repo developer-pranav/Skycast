@@ -1,5 +1,7 @@
 # SkyCast°
 
+![SkyCast° Logo](assets/logo.png)
+
 SkyCast° is a user-friendly weather website that provides real-time weather information for any location in the world. It allows users to check current weather conditions, air quality index (AQI), sunrise and sunset times, 5-day weather forecasts, and more.
 
 ## Features
@@ -10,6 +12,11 @@ SkyCast° is a user-friendly weather website that provides real-time weather inf
 - **5-Day Forecast**: View the weather forecast for the next five days.
 - **Search**: Easily search for weather information by city name or coordinates.
 - **User-friendly Interface**: Simple and intuitive UI for a seamless experience.
+
+## Screenshot
+
+![SkyCast° Screenshot](screenshot.png)
+
 
 ## Installation
 
@@ -23,14 +30,14 @@ SkyCast° is a user-friendly weather website that provides real-time weather inf
 1. Clone the repository:
     ```bash
     git clone https://github.com/developer-pranav/Skycast.git
-    cd skycast
+    cd Skycast
     ```
 
 2. Open the `index.html` file in your web browser.
 
-3. Create a `config.js` file in the root directory and add your API key:
+3. Create a `script.js` file in the root directory and add your API key:
     ```javascript
-    const API_KEY = 'your_api_key_here';
+    const apiKey = 'your_api_key_here';
     ```
 
 ## Usage
