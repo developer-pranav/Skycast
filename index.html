@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="weather icon" href="assets/logo.png">
+  <meta name="description" content="SkyCast° provides accurate and up-to-date weather forecasts, including current weather conditions, air quality index (AQI), and 5-day forecasts. Stay informed about temperature, humidity, pressure, sunrise, and sunset times for your location and explore detailed weather data with SkyCast°.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/64a9282fb2.js" crossorigin="anonymous"></script>
+  
+  
+  <title>SkyCast</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="assets/logo.png" alt="Logo">
+      <h1>SkyCast°</h1>
+    </div>
+    <div class="search">
+      <input class="searchInput" type="text" placeholder="Search City">
+      <button class="searchBtn"><img src="assets/icons/search.svg"></button>
+    </div>
+    <button class="currentLocation" onclick="getLocation()"><img src="assets/icons/globe.svg">Current Location</button>
+  </nav>
+  <main>
+    <div class="left">
+      <div class="currentWeather card">
+        <h5>Now</h5>
+        <div class="nowDeg">
+          <div>
+            <h3 id="currDeg">--°C</h3>
+            <h6 id="weather">No Data</h6>
+          </div>
+        <img src="assets/indicator/no-data.png" id="weatherIcon">
+        </div>
+        <div class="divide"></div>
+        <div>
+          <img src="assets/icons/calendar.svg">
+          <p id="date">Monday, 1 Jan</p>
+        </div>
+        <div>
+          <img src="assets/icons/map.svg">
+          <p id="location">Fetching...</p>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="detail card">
+        <h4>Today's Highlight</h4>
+        <div class="grid-details">
+          <div id="aqiCard" class="mcards">
+            <h5>Air Quality Index</h5>
+            <div>
+              <img src="assets/icons/aqi.svg" alt="AQI">
+              <span class="bdg">Scan</span>
+            </div>
+          </div>
+          <div id="sunRiseSetCard" class="mcards">
+            <div class="rise">
+              <img src="assets/icons/sunrise.svg" alt="sunrise">
+              <div>
+                <h5>Sunrise</h5>
+                <h4 id="sunrise">--:--</h4>
+              </div>
+            </div>
+            <div class="set">
+              <img src="assets/icons/sunset.svg" alt="Sunset">
+              <div>
+                <h5>Sunset</h5>
+                <h4 id="sunset">--:--</h4>
+              </div>
+            </div>
+          </div>
+          <div id="feelsCard" class="mcards">
+            <h5>Feels Like</h5>
+            <div>
+              <img src="assets/icons/temperature.svg" alt="Feels Like">
+              <h4 id="feels">--°C</h4>
+            </div>
+          </div>
+          <div id="humidityCard" class="mcards">
+            <h5>Humidity</h5>
+            <div>
+              <img src="assets/icons/humidity.svg" alt="Humidity">
+              <h4 id="humidity">--%</h4>
+            </div>
+          </div>
+          <div id="pressureCard" class="mcards">
+            <h5>Pressure</h5>
+            <div>
+              <img src="assets/icons/air.svg" alt="Pressure">
+              <h4 id="pressure">----hPa</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="fivedayForecast card">
+        <h4>5 Days Forecast</h4>
+        <div class="fiveday">
+            <div class="day mcards" id="day1">
+                <h6>Day 1</h6>
+                <div>
+                    <img src="assets/indicator/no-data.png" alt="Weather Icon">
+                    <p class="temp" id="temp1">--°C</p>
+                </div>
+            </div>
+            <div class="sdivide"></div>
+            <div class="day mcards" id="day2">
+                <h6>Day 2</h6>
+                <div>
+                    <img src="assets/indicator/no-data.png" alt="Weather Icon">
+                    <p class="temp" id="temp2">--°C</p>
+                </div>
+            </div>
+            <div class="sdivide"></div>
+            <div class="day mcards" id="day3">
+                <h6>Day 3</h6>
+                <div>
+                    <img src="assets/indicator/no-data.png" alt="Weather Icon">
+                    <p class="temp" id="temp3">--°C</p>
+                </div>
+            </div>
+            <div class="sdivide"></div>
+            <div class="day mcards" id="day4">
+                <h6>Day 4</h6>
+                <div>
+                    <img src="assets/indicator/no-data.png" alt="Weather Icon">
+                    <p class="temp" id="temp4">--°C</p>
+                </div>
+            </div>
+            <div class="sdivide"></div>
+            <div class="day mcards" id="day5">
+                <h6>Day 5</h6>
+                <div>
+                    <img src="assets/indicator/no-data.png" alt="Weather Icon">
+                    <p class="temp" id="temp5">--°C</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      </div>
+    </div>
+  </main>
+  <footer>
+    <h6>&copy 2024 Developer Pranav ❤ | All rights are reserved</h6>
+  </footer>
+  
+<script src="script.js"></script>
+</body>
+</html>

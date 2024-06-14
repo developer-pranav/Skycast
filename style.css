@@ -1,0 +1,453 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+
+body{
+  background-color: #111;
+  color: #fff;
+}
+
+nav{
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.logo h1{
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.search{
+  padding: 7px 7px 7px 20px;
+  border-radius: 30px;
+  background-color: #252525;
+  display: flex;
+  align-items: center;
+}
+
+.search input{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 220px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.search button{
+  background-color: #4477CE;
+  outline: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search button img{
+  height: 18px;
+}
+
+.currentLocation{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 140px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: #4477CE;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+main{
+  width: 100vw;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left{
+  width: 30%;
+  margin-right: 15px;
+  margin-top: 35px;
+}
+
+.card{
+  background-color: #252525;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.currentWeather{
+  width: 90%;
+  margin-top: 5px;
+}
+
+.currentWeather h5{
+  font-size: 15px;
+}
+
+.nowDeg{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nowDeg h3{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.nowDeg h6{
+  font-size: 20px;
+}
+
+.nowDeg div{
+  display: flex;
+  flex-direction: column;
+}
+
+.currentWeather div:nth-child(4){
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.currentWeather div:nth-child(5){
+  display: flex;
+  align-items: center;
+}
+
+.currentWeather div:nth-child(4) p{
+  margin-top: 1px;
+  margin-left: 7px;
+}
+
+.currentWeather div:nth-child(5) p{
+  margin-top: 0px;
+  margin-left: 7px;
+}
+
+.nowDeg img{
+  height: 80px;
+}
+
+.divide{
+  width: 95%;
+  height: 1px;
+  margin: 12px auto 20px auto;
+  background-color: #aaa;
+}
+
+.currentWeather p{
+  margin-top: 5px;
+}
+
+.sdivide{
+  height: 1px;
+  width: 100%;
+  background-color: #111;
+}
+
+.right{
+  margin-top: 5px;
+  width: 60%;
+  overflow-y: auto;
+}
+
+.detail h4{
+  font-size: 15px;
+  margin-bottom: 14px;
+  color: #777;
+}
+
+.grid-details{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.mcards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #181818;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.mcards div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mcards h4{
+  font-size: 28px;
+  margin-top: 5px;
+  color: #fff;
+}
+
+.mcards img{
+  height: 35px;
+  margin-top: -10px;
+}
+
+.mcards h5, .mcards p{
+  color: #777;
+  font-size: 15px;
+}
+
+#sunRiseSetCard{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#sunRiseSetCard h4{
+  margin-top: 0;
+}
+
+.rise, .set{
+  display: flex;
+  margin-top: 10px;
+}
+
+.rise div, .set div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  align-items: start;
+}
+
+#aqiCard img{
+  margin-top: 5px;
+  height: 40px;
+}
+
+.bdg{
+  padding: 2px 13px;
+  background-color: #0080FF;
+  border-radius: 20px;
+}
+
+#aqiCard span{
+  width: fit-content;
+  font-size: 25px;
+}
+
+.fivedayForecast{
+  margin: 10px 0;
+}
+
+.fiveday{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fivedayForecast h4{
+  color: #777;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+.sdivide{
+  display: none;
+}
+
+.day{
+  width: 15%;
+  height: 150px;
+}
+
+.day div{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.day h6{
+  font-size: 15px;
+  color: #777;
+}
+
+.day div img{
+  width: 70%;
+  height: fit-content;
+}
+
+.day div p{
+  font-size: 20px;
+}
+
+.hide{
+  display: none !important;
+}
+
+footer{
+  height: 30px;
+  width: 100vw;
+  background-color: #252525;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h6{
+  font-size: 12px;
+}
+
+@media(max-width: 840px){
+  nav{
+    position: fixed;
+    top: 0;
+    background-color: #111;
+    padding-bottom: 50px;
+  }
+  
+  .logo img{
+    height: 40px;
+  }
+  
+  .logo h1{
+    font-size: 25px;
+  }
+  
+  .search{
+    position: absolute;
+    top: 65px;
+    margin-right: auto;
+    margin-left: 5vw;
+  }
+  
+  .search input{
+    width: calc(90vw - 50px);
+  }
+  
+  .currentLocation{
+    width: 100px;
+    font-size: 12px;
+    justify-content: space-evenly;
+  }
+  
+  .currentLocation img{
+    height: 30px;
+    margin-left: 3px;
+  }
+  
+  main{
+    flex-direction: column;
+    width: 100%;
+    margin-top: 120px;
+    height: auto;
+  }
+  
+  .left, .right{
+    width: 100%;
+  }
+  
+  .left{
+    margin-top: 10px;
+  }
+  
+  .right{
+    margin-top: 20px;
+    overflow: none;
+  }
+  
+  .card{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .grid-details{
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr
+      );
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  #sunRiseSetCard{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .fiveday{
+    flex-direction: column;
+  }
+  
+  .day{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    width: calc(100% - 20px);
+    border-radius: 0;
+  }
+  
+  .day h6{
+    margin-left: 10px;
+  }
+  
+  .day div{
+    margin-right: 10px;
+  }
+  
+  .day div img{
+    height: 40px;
+    width: 40px;
+  }
+  
+  .fiveday .day:nth-child(1) {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .fiveday .day:nth-child(9) {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .sdivide{
+    display: block;
+  }
+  
+  .hide{
+    display: block !important;
+  }
+}
