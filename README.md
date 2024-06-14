@@ -72,4 +72,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) 
 
 ## Contact
 
-For any questions or suggestions, please open an issue or contact [yourname](mailto:developer.pranav3306@gmail.com.com).
+For any questions or suggestions, please open an issue or contact [DeveloperPranav](mailto:developer.pranav3306@gmail.com.com).
