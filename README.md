@@ -17,6 +17,9 @@ SkyCast° is a user-friendly weather website that provides real-time weather inf
 
 ![SkyCast° Screenshot](screenshot.png)
 
+## Live Preview
+
+You can view a live preview of SkyCast° [here](https://your-live-preview-link.com).
 
 ## Installation
 
@@ -72,4 +75,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) 
 
 ## Contact
 
-For any questions or suggestions, please open an issue or contact [DeveloperPranav](mailto:developer.pranav3306@gmail.com.com).
+For any questions or suggestions, please open an issue or contact [DeveloperPranav](mailto:developer.pranav3306@gmail.com).
