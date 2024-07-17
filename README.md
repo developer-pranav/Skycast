@@ -1,4 +1,4 @@
-# SkyCast°
+[# SkyCast°
 
 <img src="assets/logo.png" alt="SkyCast Logo" width="200">
 
@@ -76,3 +76,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) 
 ## Contact
 
 For any questions or suggestions, please open an issue or contact [DeveloperPranav](mailto:developer.pranav3306@gmail.com).
+](https://developer-pranav.github.io/Skycast/index.html)
