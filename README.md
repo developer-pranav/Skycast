@@ -1,4 +1,4 @@
-[# SkyCast°
+# SkyCast°
 
 <img src="assets/logo.png" alt="SkyCast Logo" width="200">
 
