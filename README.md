@@ -19,7 +19,7 @@ SkyCast° is a user-friendly weather website that provides real-time weather inf
 
 ## Live Preview
 
-You can view a live preview of SkyCast° [here](https://your-live-preview-link.com).
+You can view a live preview of SkyCast° [here](https://developer-pranav.github.io/Skycast/index.html).
 
 ## Installation
 
