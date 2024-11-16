@@ -38,7 +38,7 @@ You can view a live preview of SkyCast° [here](https://developer-pranav.github.
 
 2. Open the `index.html` file in your web browser.
 
-3. Create a `script.js` file in the root directory and add your API key:
+3. Add your API key in script.js:
     ```javascript
     const apiKey = 'your_api_key_here';
     ```
