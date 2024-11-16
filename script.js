@@ -16,7 +16,7 @@ const pressure = document.getElementById('pressure');
 
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?";
 const forecastApiUrl = "https://api.openweathermap.org/data/2.5/forecast?";
-const aqiUrl = "http://api.openweathermap.org/data/2.5/air_pollution/forecast?";
+const aqiUrl = "https://api.openweathermap.org/data/2.5/air_pollution/forecast?";
 const searchBox = document.querySelector(".searchInput");
 const searchBtn = document.querySelector(".searchBtn");
 const daysName = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
