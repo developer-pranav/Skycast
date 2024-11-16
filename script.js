@@ -1,13 +1,5 @@
-// Prompt the user to enter their API key for the weather service
-const apiKey = prompt("Please enter your API key from OpenWeatherMap to proceed:"); //You can remove this prompt and add Ypur Api key here, So that u didn't need to re-entered it again
-
-// Also Remove this Part
-if (!apiKey) {
-    alert("API key is required to use this application. Please obtain an API key from https://openweathermap.org/ and try again.");
-    throw new Error("API key is missing");
-}
-
-
+const apiKey = "18419ced70f80c4092809256da8e5b41" // Add your ApiKey Here
+    
 
 // DOM elements
 const current = document.getElementById('currDeg');
