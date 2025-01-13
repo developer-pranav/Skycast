@@ -13,7 +13,7 @@ SkyCast° is a user-friendly weather website that provides real-time weather inf
 
 ## Screenshot
 
-![SkyCast° Screenshot](screenshot.png)
+![SkyCast° Screenshot](mockup.png)
 
 ## Live Preview
 
