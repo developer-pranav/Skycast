@@ -2,7 +2,7 @@
 
 SkyCast° is a user-friendly weather website that provides real-time weather information for any location in the world. It allows users to check current weather conditions, air quality index (AQI), sunrise and sunset times, 5-day weather forecasts, and more.
 
-## Features
+## 🚀 Features
 
 - **Current Location Weather**: Get real-time weather updates for your current location.
 - **Air Quality Index (AQI)**: View the current air quality index for your location.
@@ -11,11 +11,11 @@ SkyCast° is a user-friendly weather website that provides real-time weather inf
 - **Search**: Easily search for weather information by city name or coordinates.
 - **User-friendly Interface**: Simple and intuitive UI for a seamless experience.
 
-## Screenshot
+## 📸 Screenshot
 
 ![SkyCast° Screenshot](mockup.png)
 
-## Live Preview
+## 🌐 Live Preview
 
 You can view a live preview of SkyCast° [here](https://developer-pranav.github.io/Skycast/index.html).
 
@@ -26,7 +26,7 @@ You can view a live preview of SkyCast° [here](https://developer-pranav.github.
 - JavaScript
 - Rest API (Openweather API)
 
-## Installation
+## 💾 Installation
 
 ### Prerequisites
 
@@ -48,23 +48,22 @@ You can view a live preview of SkyCast° [here](https://developer-pranav.github.
     const apiKey = 'your_api_key_here';
     ```
 
-## Usage
+## 📡 Usage
 
 1. Open the `index.html` file in your web browser.
 2. Allow the website to access your location for real-time weather updates.
 3. Use the search bar to find weather information for specific cities.
 4. View the current weather conditions, AQI, sunrise and sunset times, and 5-day forecast.
-5. 
 
-## Configuration
+## 🔧 Configuration
 
 Make sure to set your weather API key in the `script.js` file as mentioned in the installation steps.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
 
-## Contributing
+## 🤝 Contributing
 
 Want to contribute? Follow these steps:
 
@@ -76,6 +75,6 @@ Want to contribute? Follow these steps:
 
 We appreciate your contributions!
 
-## Contact
+## 📞 Contact
 
 For any questions or suggestions, please open an issue or contact [DeveloperPranav](mailto:developer.pranav3306@gmail.com).
