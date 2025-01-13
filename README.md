@@ -19,6 +19,13 @@ SkyCast° is a user-friendly weather website that provides real-time weather inf
 
 You can view a live preview of SkyCast° [here](https://developer-pranav.github.io/Skycast/index.html).
 
+## 🛠️ Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+- Rest API (Openweather API)
+
 ## Installation
 
 ### Prerequisites
@@ -47,13 +54,7 @@ You can view a live preview of SkyCast° [here](https://developer-pranav.github.
 2. Allow the website to access your location for real-time weather updates.
 3. Use the search bar to find weather information for specific cities.
 4. View the current weather conditions, AQI, sunrise and sunset times, and 5-day forecast.
-
-## Dependencies
-
-- HTML
-- CSS
-- JavaScript
-- Weather API (OpenWeatherMap)
+5. 
 
 ## Configuration
 
